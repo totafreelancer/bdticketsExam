@@ -1,12 +1,12 @@
-import React from 'react';
+
+import Hero from './component/Hero';
+// import Hero2 from './component/hero2';
 
 const App = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-
+      <Hero></Hero>
+      {/* <Hero2></Hero2> */}
     </div>
   );
 };
