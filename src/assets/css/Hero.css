@@ -1,5 +1,16 @@
 
 
+.loading {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 a, button {
   cursor: pointer;
   text-decoration: none;
